@@ -7,5 +7,5 @@ sudo rm -f /etc/xinetd.d/check_mk
 sudo cp checkmk-agent/check_mk.conf /etc/xinetd.d/check_mk
 sudo /etc/init.d/xinetd restart
 
-# Open firewall allow access from salt to agent
+# Open firewall allow access from OMD to agent for port 6556
 
